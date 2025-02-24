@@ -1,0 +1,68 @@
+git clone <https://github.com/Rize-Education-CSC/create-your-own-personal-web-page-jordanlak.git>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my personal website! Here, you can learn more about me, my hobbies, my computer science experience, and get in touch with me. Feel free to explore the sections!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Lakara Jordan</h2>
+        <p>Hello! I'm Lakara Jordan, a  student web developer. I enjoy learning new programming languages and coding in different projects. I'm always looking for opportunities to grow and improve.</p>
+        <p>Outside of coding one of my favorite hobbies is fishing. It's a peaceful way to spend time alone and reflect on my thoughts. The calmness of the water and the patience required make it a perfect escape from the busyness of everyday life.</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Here is a brief overview of my professional experience and qualifications.</p>
+        <ul>
+            <li>Obtainig Degree in Computer Science (Expected Graduation: 2026)</li>
+            <li>Skills: HTML, CSS, JavaScript, Python, Django</li>
+            <li>Projects: Personal Website, Online Store, etc.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lakara Jordan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
